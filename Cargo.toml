@@ -2,10 +2,10 @@
 authors = ["{{authors}}"]
 description = 'FRAME pallet template for defining custom runtime logic.'
 edition = '2018'
-homepage = 'https://github.com/{{authors}}/{{project-name}}'
+homepage = 'https://github.com/xxx/{{project-name}}'
 license = 'Unlicense'
 name = '{{project-name}}'
-repository = 'https://github.com/{{authors}}/{{project-name}}'
+repository = 'https://github.com/xxx/{{project-name}}'
 version = "0.1.0"
 
 [profile.release]

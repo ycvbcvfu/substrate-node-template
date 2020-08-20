@@ -1,10 +1,8 @@
 [package]
 authors = ["{{authors}}"]
 edition = '2018'
-homepage = 'https://github.com/{{authors}}/{{project-name}}'
 license = 'Unlicense'
 name = 'node-template-runtime'
-repository = 'https://github.com/{{authors}}/{{project-name}}'
 version = '2.0.0-rc5'
 
 [package.metadata.docs.rs]
