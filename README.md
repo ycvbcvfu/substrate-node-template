@@ -1,4 +1,4 @@
-# Substrate Node Template
+# {{project-name}}
 
 A new FRAME-based Substrate node, ready for hacking :rocket:
 
@@ -37,19 +37,19 @@ cargo build --release
 Purge any existing dev chain state:
 
 ```bash
-./target/release/node-template purge-chain --dev
+./target/release/{{project-name}} purge-chain --dev
 ```
 
 Start a dev chain:
 
 ```bash
-./target/release/node-template --dev
+./target/release/{{project-name}} --dev
 ```
 
 Or, start a dev chain with detailed logging:
 
 ```bash
-RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/node-template -lruntime=debug --dev
+RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/{{project-name}} -lruntime=debug --dev
 ```
 
 ### Multi-Node Local Testnet
@@ -99,7 +99,7 @@ After the node has been [built](#build), refer to the embedded documentation to 
 capabilities and configuration parameters that it exposes:
 
 ```shell
-./target/release/node-template --help
+./target/release/{{project-name}} --help
 ```
 
 ### Runtime
@@ -159,10 +159,10 @@ by appending your own. A few useful ones are as follow.
 
 ```bash
 # Run Substrate node without re-compiling
-./scripts/docker_run.sh ./target/release/node-template --dev --ws-external
+./scripts/docker_run.sh ./target/release/{{project-name}} --dev --ws-external
 
 # Purge the local dev chain
-./scripts/docker_run.sh ./target/release/node-template purge-chain --dev
+./scripts/docker_run.sh ./target/release/{{project-name}} purge-chain --dev
 
 # Check whether the code is compilable
 ./scripts/docker_run.sh cargo check
