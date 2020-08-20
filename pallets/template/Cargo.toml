@@ -1,11 +1,11 @@
 [package]
-authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
+authors = ["{{authors}}"]
 description = 'FRAME pallet template for defining custom runtime logic.'
 edition = '2018'
-homepage = 'https://substrate.dev'
+homepage = 'https://github.com/{{authors}}/{{project-name}}'
 license = 'Unlicense'
 name = 'pallet-template'
-repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
+repository = 'https://github.com/{{authors}}/{{project-name}}'
 version = '2.0.0-rc5'
 
 [package.metadata.docs.rs]
